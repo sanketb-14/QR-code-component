@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Barlow+Semi+Condensed:wght@100;200&family=Outfit:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+
+    max-width: 100%;
+
+    
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+}
+.container img{
+    margin: auto ;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5vh;
+    border-radius: 1.2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    height: 60vh;
+    width: 18vw;
+}
+.container h2{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+.container p{
+    letter-spacing: 0.2px;
+    justify-content: center;
+    color: hsl(220, 15%, 55%);
+    margin: 0rem auto ;
+    padding: 0.2rem 0.9rem;
+    font-size: 0.9rem;
+}
+.attribution { 
+    font-size: 1rem; text-align: center;
+    display: flex;
+    padding: 4rem;
+ }
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+    }
